@@ -1,0 +1,78 @@
+main {
+  /* text-align: justify; */
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+.casa-img {
+  height: 10rem;
+  width: 15rem;
+}
+
+main a {
+  background-color: #fe9d97;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+main h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+main p {
+  font-size: 1.2rem;
+}
+
+main p, h5 {
+  padding-right: 30px;
+}
+
+.adverts {
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* flex-flow: row wrap; */
+  /* flex-wrap: wrap; */
+}
+
+.adverts-info {
+  height: 300px;
+  border-radius: 15px;
+  border: solid 2px #e6dac6;
+  padding: 30px;
+  margin: 20px 0;
+  transition: 0.3s;
+  /* display: flex;
+  flex-direction: column;
+  align-items: ; */
+  /* display: grid;
+  grid-template-columns: 30% 70%; */
+}
+
+.adverts-info:hover {
+  border: solid 2px #390039;
+}
+
+.adverts-info:active {
+  background-color: #d6c3b9;
+}
+
+.casa-img, .adverts-info {
+  /* margin: 30px 0 ; */
+  background-color: #e6dac6;
+}
+
+.filter-logo-input, .menu-hamburguer-input {
+  height: 20px;
+}
+
+.filter-and-category {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
