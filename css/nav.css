@@ -17,7 +17,9 @@ nav {
 
 .links-nav {
   /* margin: 2px 5px; */
-  font-size: 1.rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
