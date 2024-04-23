@@ -19,6 +19,10 @@ main a {
   border-radius: 4px;
 }
 
+main a:hover {
+  background-color: #e8caaf;
+}
+
 main h1 {
   font-weight: bold;
   font-size: 3rem;
